@@ -1,0 +1,20 @@
+{
+  "name": "verzel-qa-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Teste técnico QA Júnior Verzel - VZS-142 (cupom e frete grátis)",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test --project=api",
+    "test:ui": "playwright test --project=ui",
+    "report": "playwright show-report",
+    "install:browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.0.0"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
